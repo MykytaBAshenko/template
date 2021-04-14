@@ -42,16 +42,30 @@
 
                 <div class="new_order-comtainer-header">
                     <div class="new_order-comtainer-header-breadcrumps">
-                        <div class="new_order-comtainer-header-breadcrump">
+                        <a href="#" class="new_order-comtainer-header-breadcrump">
                             Тип продукции
-                        </div>
+                        </a>
                         <svg width="11" height="9" viewBox="0 0 11 9" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M10.032 4.394L6.182 8.706L5.244 7.908L7.134 5.836C7.498 5.43467 7.82467 5.14067 8.114 4.954H0.708V3.834H8.114C7.918 3.71267 7.75933 3.60067 7.638 3.498C7.526 3.386 7.358 3.204 7.134 2.952L5.244 0.879999L6.182 0.0819997L10.032 4.394Z" fill="#9DA7AE"/>
                         </svg>
                             
-                        <div class="new_order-comtainer-header-breadcrump-active">
+                        <a href="#" class="new_order-comtainer-header-breadcrump">
                             Тип продукции
-                        </div>
+                        </a>
+                        <svg width="11" height="9" viewBox="0 0 11 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.032 4.394L6.182 8.706L5.244 7.908L7.134 5.836C7.498 5.43467 7.82467 5.14067 8.114 4.954H0.708V3.834H8.114C7.918 3.71267 7.75933 3.60067 7.638 3.498C7.526 3.386 7.358 3.204 7.134 2.952L5.244 0.879999L6.182 0.0819997L10.032 4.394Z" fill="#9DA7AE"/>
+                        </svg>
+                            
+                        <a href="#" class="new_order-comtainer-header-breadcrump">
+                            Тип продукции
+                        </a>
+                        <svg width="11" height="9" viewBox="0 0 11 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.032 4.394L6.182 8.706L5.244 7.908L7.134 5.836C7.498 5.43467 7.82467 5.14067 8.114 4.954H0.708V3.834H8.114C7.918 3.71267 7.75933 3.60067 7.638 3.498C7.526 3.386 7.358 3.204 7.134 2.952L5.244 0.879999L6.182 0.0819997L10.032 4.394Z" fill="#9DA7AE"/>
+                        </svg>
+                            
+                        <a href="#"  class="new_order-comtainer-header-breadcrump-active">
+                            Тип продукции
+                        </a>
                     </div>
                     <a href="#">
                         <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -62,7 +76,7 @@
 
                     </a>
                 </div>
-                <div class="new_order-container-title">
+                <!-- <div class="new_order-container-title">
                     Выберите тип продукции
                 </div>
                 <div class="new_order-container-oborots-selector    ">
@@ -80,10 +94,30 @@
                             Заказать из своих макетов
                         </button>
                     </div>
+                </div> -->
+                <div class="new_order-container-oborots-selector">
+                    <div class="new_order-container-oborots-selector-container    ">
+                        <div class="new_order-container-oborots-selector-container-title    ">
+                            Выберите количество разворотов
+                        </div>
+                        <div class="input-output-container" >
+                                <input type="number" min="2" max="20" id="input-text"/>
+                                <input type="range" min="2" max="20" value="2" step="1" id="range-input">
+                                <div class="range-labal">
+                                    <div class="label">2</div>
+                                    <div class="label label-right">20</div>
+
+                                </div>
+                        </div>
+                        <div class="new_order-container-oborots-selector-container-for-btn">
+                            <button>
+                                Заказать из своих макетов
+                            </button>
+                        </div>
+                    </div>
                 </div>
                 <div class="new_order-meta-content">
                     <div>
-                        <input type="checkbox" id="scales" name="scales">
                         <label for="scales">На образец скидка 50%. <a href="#">Требования к образцу <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M13.5 0.75H8V2.25H11.6893L4.46967 9.46967L5.53033 10.5303L12.75 3.31066V7H14.25V1.5V0.75H13.5ZM1.5 3H5V4.5H1.5V13.5H10.5V10H12V13.5V15H10.5H1.5H0V13.5V4.5V3H1.5Z" fill="#1E4CC6"/>
                             </svg>
@@ -107,8 +141,6 @@
         </div>
 
     </main>
-
-
     <footer>
         <div class="footer-container">
             <div class="footer-container-column">
@@ -145,6 +177,7 @@
 
     </footer>
 
+    <script src="js.js"></script>
 </body>
 
 </html>
