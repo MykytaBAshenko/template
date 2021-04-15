@@ -26,6 +26,20 @@ header {
     grid-template-columns: auto auto;
 }
 
+.header-body-left-new-order{
+    background: #1E4CC6;
+    border-radius: 100px;
+    height: 43px;
+    display: grid;
+    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    width: 145px;
+}
+
 .header-body-left-logo {
     display: flex;
     align-items: center;
@@ -1263,21 +1277,160 @@ input[type=range] {
     background: #1E4CC6;
   }
 
+.all-orders-field-body-header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+    padding-bottom: 15px;
+    font-size: 12px;
+}
+.all-orders-field-body-header *{
+    color: #7C858B;
+    text-transform: capitalize;
+}
+
+.all-orders-field{
+    padding-bottom: 35px;
+}
+
+
+.all-orders{
+    padding: 40px 10px;
+    display: grid;
+    justify-items: center;
+}
+
+.all-orders-field-body-closed-header{
+    display: grid;
+
+    padding-bottom: 25px;
+    grid-template-columns: 1fr 1fr;
+}
+.all-orders-field-body-closed-header-right{
+    justify-self: right;
+}
+
+.all-orders-field-body-closed-header-right button{
+    padding: 10px 20px;
+
+background: #1E4CC6;
+height: 32px;
+
+font-weight: 600;
+font-size: 11px;
+
+letter-spacing: 0.4px;
+
+color: #FFFFFF;
+border: none;
+border-radius: 40px;
 
 
 
+}
+.all-orders-field-body-closed-header-code{
+    font-weight: bold;
+font-size: 18px;
+}
 
+.all-orders-field-body-closed-header-left{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.all-orders-field-body-closed-header-date{
+    font-weight: 500;
+font-size: 12px;
+height: 32px;
+text-transform: uppercase;
+display: flex;
+align-items: center;
+padding: 0 20px;
+border-radius: 40px;
+border: 1px solid #3B3F42;
+color: #3B3F42;
+}
 
+.all-orders-container{
+    width: 100%;
+    max-width: 860px;
+}
 
+.all-orders-field-body{
+    background-color: white;
+    padding: 30px 35px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    box-shadow: 0px 15px 25px rgba(186, 196, 221, 0.5);
+}
+.all-orders-field-title{
+    font-weight: bold;
+font-size: 28px;
+color: #3B3F42;
 
+}
 
+.all-orders-field-body-content-row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
 
+.create-new-order-in-order-list{
+    
+    color: #1E4CC6;
+    display: grid;
+    justify-items: center;
+    font-weight: 500;
+font-size: 20px;
+text-align: center;
+}
 
+.all-orders-btn-create{
+    background: rgba(124, 133, 139, 0.7);
+border-radius: 100px;
+    height: 43px;
+    width: 150px;
+    margin-top: 20px;
+    border:none;
+    font-weight: 500;
+font-size: 14px;
+color: white;
+cursor: pointer;
+}
 
+.all-orders-field-body-content-row-field{
+    font-weight: normal;
+font-size: 14px;
+}
 
+.all-orders-field-body-content-row{
+    padding: 7px 0;   
+    border-bottom: 1px solid rgba(124, 133, 139, .15);
+}
+.all-orders-field-body-content-row:last-child {
+    border-bottom: none;
+}
 
+.all-orders-field-body-content-row-field-select{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-self: left;
+}
 
+.all-orders-field-body-content-row-field-select label a{
+    font-size: 14px;
+color: #1E4CC6;
+}
 
+.all-orders-field-body-content-row-field-select input{
+border: 1px solid #7C858B;
+box-sizing: border-box;
+border-radius: 3px;
+}
 
 @media only screen and (max-width: 1350px) {
     header {
